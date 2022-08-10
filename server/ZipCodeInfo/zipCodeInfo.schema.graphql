@@ -1,0 +1,12 @@
+type ZipCodeInfo {
+    country: String!
+    countryCode: String!
+    zipCode: String!
+    city: String!
+    state: String!
+    stateCode: String!
+}
+
+type Query {
+    zipCodeInfo(zipCode: String!, countryCode: String = "US"): ZipCodeInfo
+}

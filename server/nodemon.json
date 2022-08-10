@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "server"
+  ],
+  "ext": ".ts,.js,.graphql,.gql",
+  "ignore": [],
+  "exec": "npm run generateTypes && ts-node ./index.ts"
+}
