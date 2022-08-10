@@ -1,0 +1,10 @@
+query getZipCodeInfo($zipCode: String!, $countryCode: String) {
+  zipCodeInfo(zipCode: $zipCode, countryCode: $countryCode) {
+    country
+    city
+    countryCode
+    state
+    stateCode
+    zipCode
+  }
+}
